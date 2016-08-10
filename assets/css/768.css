@@ -39,6 +39,11 @@
 		float: right;
 		margin: 40px;
 		width: 30%;
+		height: 250px;
+	}
+
+	.image-box img {
+		margin-top: 55px;
 	}
 
 	.text-box {
