@@ -26,6 +26,13 @@
 		display: none;
 	}
 
+	#gallery li {
+		width: 26.3333%;
+	}
+
+	#gallery li:nth-child(3n) {
+		clear: left;
+	}
 
 
 

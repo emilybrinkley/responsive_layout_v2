@@ -13,33 +13,34 @@
     <body>
     <!-- navbar -->
     <header class="main-header cf">
-    	<div class="container">
-    		<h1 class="name"><a href="#">Emily Brinkley</a></h1>
-    		
-		    <div class="main-nav">
+        <div class="container">
+                <h1 class="name"><a name="main-header">Emily Brinkley</a></h1>
+                
+             <div class="main-nav">
                 <ul>
                     <li><a href="index.html">home</a></li>
-                    <li><a href="portfolio.html">portfolio</a></li>
+                    <li><a href="#gallery">portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
                     <li><a href="skills.html">skills</a></li>
                 </ul>
             </div>
-        </div>       
-	</header>
+        </div>  
 
     <div class="banner-box cf">
             <div class="image-box">
                 <img src="assets/img/myAvatar.jpg" alt="Emily Brinkley cartoon">
             </div>
                 <div class="text-box">
-                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
+                    <p>Below are examples of other skills I've learned as a student of the Treehouse TechDegree Program. </p>
                 </div>
         </div>
 
     <div class="wrapper">
-        <div class="primary cf">
-            <h3>skills</h3>
-                 <div class="gallery">
-                    <div class="col1">
+        <a name="#gallery">
+            <h3>skills</h3></a>
+            <section id="primary cf">
+                <div id="gallery">
+               
                         <ul>
                             <li>
                               <a href="#">
@@ -62,10 +63,7 @@
                                 <p>This project compares travel times based on different transportation methods and tells you the best one.</p>
                                 </a>
                             </li>
-                        </ul>
-                    </div>
-                    <div class="col2">
-                        <ul>
+                      
                             <li>
                               <a href="#">
                                 <img src="assets/img/portfolio-7.png" alt="Favorite Spots Image">
@@ -89,22 +87,38 @@
                             </li>
                         </ul>
                     </div>
-                </div>
+                </section>
             </div>
-        </div>
+
+
+        <div class="tertiary cf">
+            <a name="contact"><h3>contact</h3></a>
+            <p>If you're interested in chatting or want more information on what I've been working on, I'd love to hear from you!</p>
+
+                <div class="contact-info">
+                    
+                    <ul>
+                      <li class="phone"><a href="tel:555-6425">555-6425</a></li>
+                      <li class="mail"><a href="mailto:emily@example.com">emily@example.com</a></li>
+                      <li class="twitter"><a href="http://twitter.com/intent/tweet?screen_name=emilybrinkleyus">@emilybrinkleyus</a></li>
+                    </ul>
+                    </a>
+               </div> 
+         </div>    
 
         <footer>
-            <div class="main-footer cf">
-            <h1 class="footer-name"><a href="#">Emily Brinkley</a></h1>
+            <div class="main-footer">
+            <h1 class="footer-name cf"><a href="index.html">Emily Brinkley</a></h1>
                 <div class="wrap tablet">
                         <ul>
-                            <li><a href="#">home</a></li>
-                            <li><a href="#">portfolio</a></li>
-                            <li><a href="#">skills</a></li>
+                            <li><a href="index.html">home</a></li>
+                            <li><a href="#gallery">portfolio</a></li>
+                            <li><a href="#contact">contact</a></li>
+                            <li><a href="skills.html">skills</a></li>
                         </ul>
                 </div>
                 <div class="mobile">
-                    <h3>Back to Top</h3>
+                    <a href="#main-header"><h3>Back to Top</h3></a>
                 </div>
             </div>
         </footer>

@@ -1,4 +1,4 @@
-@media (min-width: 769px) {
+@media (min-width: 768px) {
 
 
 	/* NAV */
@@ -62,16 +62,33 @@
     TWO COLUMN LAYOUT
     ********************/
     
-	.col1 {
-		width: 45%;
-		float: left;
+	#gallery li {
+		display: inline-block;
+		margin: 0 10px;
 	}
 
-	.col2 {
-		width: 45%;
-		float: right;
+	section {
+		right: 0;
+		left: 0;
+		margin: 0 auto;
+		text-align: center;
 	}
 
+	#gallery li {
+		width: 45%;
+	}
+
+	#gallery li:nth-child(2n) {
+		clear: left;
+	}
+
+	/* Contact */
+
+	.tertiary p {
+		padding: 0 100px;
+	}
+
+	/* Footer Nav */
 	.mobile {
 		display: none;
 	}

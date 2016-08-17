@@ -21,6 +21,7 @@ p {
 h3 {
 	font-size: 12px;
 	text-transform: uppercase;
+	padding: 35px;
 }
 
 h2, 
@@ -28,6 +29,7 @@ h3,
 a {
 	color: #373E45;
 	text-align: center;
+
 }
 
 h2,
@@ -86,6 +88,10 @@ img {
 	padding: 1px;
 }
 
+.text-box {
+	padding: 25px 0;
+}
+
 
 /*Layout Containers*/
 
@@ -106,6 +112,7 @@ img {
 .banner-box {
   	background: #FAFAFA;
   	color: #3a3a3a;
+  	margin-top: 25px;
 
 }
 
@@ -130,29 +137,32 @@ img {
 
 }
 
-.gallery {
-	margin: 5px 20px;
+/* Portfolio Layouts */
+
+#gallery {
+	margin: 15px 25px;
 }
 
-.primary h2 {
+#gallery h2 {
 	font-weight: bold;
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
-.primary p {
+#primary p {
 	height: 150px;
 	margin: 35px;
 }
 
-.secondary {
+
+/* Contact Layouts */
+
+.tertiary {
 	text-align: center;
-	width: 100%;
-	height: 335px;
 	background: #FAFAFA;
-	padding: 25px 65px 25px 60px;
+	padding: 25px 35px;
 }
 
-.secondary a {
+.tertiary a {
 	color: #8D9AA5;
 }
 
@@ -162,7 +172,6 @@ img {
 
 .mobile {
 	float: right;
-	width: 30%;
 	padding-top: 13px;
 }
 
@@ -179,6 +188,17 @@ img {
 	padding-left: 10px;
 	font-size: 1.25em;
 }
+
+.mobile h3,
+.tertiary h3 {
+	padding: 0;
+}
+
+.cf::after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
 
 
 
