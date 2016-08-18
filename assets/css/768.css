@@ -62,7 +62,8 @@
     TWO COLUMN LAYOUT
     ********************/
     
-	#gallery li {
+	#gallery li,
+	#skills li	 {
 		display: inline-block;
 		margin: 0 10px;
 	}
@@ -74,11 +75,16 @@
 		text-align: center;
 	}
 
-	#gallery li {
+	#gallery li,
+	#skills li {
 		width: 45%;
 	}
 
 	#gallery li:nth-child(2n) {
+		clear: left;
+	}
+
+	#skills li:nth-child(2n) {
 		clear: left;
 	}
 

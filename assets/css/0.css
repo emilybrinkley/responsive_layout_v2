@@ -110,16 +110,14 @@ img {
 }
 
 .banner-box {
-  	background: #FAFAFA;
-  	color: #3a3a3a;
+  	background: #52BAB4;
+  	color: #F5F5F5;
   	margin-top: 25px;
 
 }
 
 .image-box {
-	width: 200px;
 	background: #EDEDED;
-	margin: auto;
 
 }
 
@@ -130,25 +128,27 @@ img {
 
 .banner-box img {
 	position: relative;
-	width: 100px;
-	height: 100px;
+	width: 150px;
 	border-radius: 50%;
-	margin-top: 4%;
+	margin-top: 10%;
 
 }
 
 /* Portfolio Layouts */
 
-#gallery {
+#gallery,
+#skills 	 {
 	margin: 15px 25px;
 }
 
-#gallery h2 {
+#gallery h2,
+#skills h2 		{
 	font-weight: bold;
 	font-family: 'Source Sans Pro', sans-serif;
 }
 
-#primary p {
+#primary p,
+#secondary p  {
 	height: 150px;
 	margin: 35px;
 }
@@ -158,12 +158,13 @@ img {
 
 .tertiary {
 	text-align: center;
-	background: #FAFAFA;
+	background: #52BAB4;
 	padding: 25px 35px;
+	color: #fff;
 }
 
 .tertiary a {
-	color: #8D9AA5;
+	color: #fff;
 }
 
 .tablet {

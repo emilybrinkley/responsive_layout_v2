@@ -1,4 +1,4 @@
-@media (min-width: 1000px) {
+@media (min-width: 1084px) {
 
 	.container {
 		display: inline-block;
@@ -27,14 +27,20 @@
 	}
 
 	#gallery li {
-		width: 26.3333%;
+		width: 23.3333%;
 	}
 
 	#gallery li:nth-child(3n) {
 		clear: left;
 	}
 
+	#skills li {
+		width: 23.3333%;
+	}
 
+	#skills li:nth-child(3n) {
+		clear: left;
+	}
 
 
 
