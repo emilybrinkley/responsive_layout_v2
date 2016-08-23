@@ -30,7 +30,7 @@
 		width: 23.3333%;
 	}
 
-	#gallery li:nth-child(3n) {
+	#gallery li:nth-child(4n) {
 		clear: left;
 	}
 
@@ -38,7 +38,7 @@
 		width: 23.3333%;
 	}
 
-	#skills li:nth-child(3n) {
+	#skills li:nth-child(4n) {
 		clear: left;
 	}
 
