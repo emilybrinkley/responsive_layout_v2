@@ -27,18 +27,20 @@
 	}
 
 	#gallery li {
-		width: 23.3333%;
+		width: 28.3333%;
+		height: inherit;
 	}
 
-	#gallery li:nth-child(4n) {
+	#gallery li:nth-child(3n) {
 		clear: left;
 	}
 
 	#skills li {
-		width: 23.3333%;
+		width: 28.3333%;
+		height: inherit;
 	}
 
-	#skills li:nth-child(4n) {
+	#skills li:nth-child(3n) {
 		clear: left;
 	}
 
